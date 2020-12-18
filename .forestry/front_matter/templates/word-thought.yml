@@ -27,3 +27,5 @@ fields:
       path: 
   label: Language
   description: What is the language of the word.
+pages:
+- src/words/bildung.md
