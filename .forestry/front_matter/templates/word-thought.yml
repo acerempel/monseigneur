@@ -1,4 +1,29 @@
 ---
 label: Word-thought
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  description: The word under contemplation.
+- name: language
+  type: select
+  default: English
+  config:
+    required: true
+    options:
+    - English
+    - German
+    - Latin
+    - Ancient Greek
+    - French
+    - Italian
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Language
+  description: What is the language of the word.
