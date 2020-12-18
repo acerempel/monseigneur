@@ -1,0 +1,19 @@
+{
+  "name": "Zogs",
+  "version": "0.0.1",
+  "description": "a zog",
+  "main": "index.js",
+  "authors": {
+    "name": "Alan Rempel",
+    "email": "alan.rempel@gmail.com"
+  },
+  "repository": "https://github.com/acerempel/zlog.git",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
